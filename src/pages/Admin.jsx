@@ -9,7 +9,7 @@ const Admin = () => {
         queryKey: ["admin_info"],
         queryFn: () =>
             getAllHandler(
-                `https://job-portal-server-indol.vercel.app//api/v1/admin/info`
+                `https://job-portal-server-indol.vercel.app/api/v1/admin/info`
             ),
     });
 

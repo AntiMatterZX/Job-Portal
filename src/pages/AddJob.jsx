@@ -55,7 +55,7 @@ const AddJob = () => {
         // posting;
         try {
             const response = await axios.post(
-                "https://job-portal-server-indol.vercel.app//api/v1/jobs",
+                "https://job-portal-server-indol.vercel.app/api/v1/jobs",
                 newJob,
                 {
                     withCredentials: true,

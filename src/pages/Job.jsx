@@ -28,7 +28,7 @@ const Job = () => {
         queryKey: ["job"],
         queryFn: () =>
             getSingleHandler(
-                `https://job-portal-server-indol.vercel.app//api/v1/jobs/${id}`
+                `https://job-portal-server-indol.vercel.app/api/v1/jobs/${id}`
             ),
     });
 

@@ -30,7 +30,7 @@ const Login = () => {
         // posting
         try {
             const response = await axios.post(
-                "https://job-portal-server-indol.vercel.app//api/v1/auth/login",
+                "https://job-portal-server-indol.vercel.app/api/v1/auth/login",
                 data,
                 {
                     withCredentials: true,
